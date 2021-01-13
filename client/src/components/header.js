@@ -1,8 +1,9 @@
-import './header.css';
 
 function Header(){
   return (
   <div className='header__'>
-  <div>
+  </div>
   );
   }
+
+export default Header;
