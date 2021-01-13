@@ -1,10 +1,9 @@
 import React from 'react';
+import Header from './header';
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Amazon Full Stack Clone</h1>
-      </header>
+      <Header />
     </div>
   );
 }
