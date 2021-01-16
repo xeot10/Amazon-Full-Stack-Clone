@@ -1,0 +1,80 @@
+
+.body__{
+  width: 100%;
+  max-width:85.5em;
+  min-width: 85.4em;
+  height: 170em;
+  background: #cfdac8;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+.body__adCarousel{
+  width: 100%;
+  /* margin-left: -1%; */
+  height: 24em;
+  background: #ffc1b6;
+  text-align: center;
+}
+
+.body__adCards{
+  display: flex;
+  margin-left: -5px;
+  margin-top: -5em;
+  width: 100%;
+}
+
+.body__adCards2{
+  display: flex;
+  margin-top: 3em;
+  width: 100%;
+  height: 26em;
+}
+.body__card2Ads{
+  display: flex;
+  margin-top: -1.1em;
+  margin-left: 4px;
+}
+
+.body__adCarousel1{
+  width: 96%;
+  height: 26em;
+  padding-top: 2em;
+  overflow-y: hidden;
+  margin-left: 1.4%;
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 2em;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  max-width: 6px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  width: 50%;
+  height: 50%;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.test{
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  display: flex;
+}

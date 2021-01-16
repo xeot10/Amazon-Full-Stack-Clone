@@ -1,0 +1,50 @@
+.ProductCard{
+  display: flex;
+  margin-left: 2em;
+  width:30em;
+  justify-content: center;
+  align-content: center;
+}
+
+.card{
+
+  width: 13em;
+  height: 19em;
+  box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+  padding: 0rem 1rem;
+}
+.Product_div{
+  min-height: 20vh;
+  align-items: center;
+  justify-content: center;
+
+  /* display: flex; */
+
+}
+.Product_div img{
+  width: 10em;
+  height: 10em;
+  margin-left: 0.8em;
+  margin-top: 1em;
+  z-index: 6;
+  position: relative;
+}
+.product_info{
+  margin-top: 3em;
+}
+.product_info h7{
+  float:right;
+}
+.product_info h4{
+  font-size: 20px;
+}
+.circle{
+  width: 8.4em;
+  height: 8.4em;
+  border-radius: 50%;
+  background: linear-gradient( to right, rgba(245, 70,66,0.75), rgba(8,83,156,0.75));
+  margin-left: 1.3em;
+  z-index: 1;
+  margin-top: 1em;
+  position: absolute;
+}

@@ -1,0 +1,10 @@
+
+.body__PrimeAds{
+  width: 40em;
+  height: 410px;
+  background: white;
+  margin-left: 21px;
+  margin-top: 0.1em;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
